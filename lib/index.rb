@@ -18,8 +18,15 @@ library = [
 
 # WRITE CODE BELOW HERE
 
+# all_pages: all_pages takes in your library as an argument, and outputs how many pages are in all of your books in your library! (Bonus: try to complete this method using the .reduce method)
+# Example
 
+# all_pages(library)
 
+# 12406
+def all_pages(library)
+  
+end
 
 # WRITE CODE ABOVE HERE
 
