@@ -25,12 +25,11 @@ library = [
 
 # 12406
 def all_pages(library)
-  
+  library.reduce(0) do |memo, pages| 
+    binding.pry
+   memo + pages
+  end
 end
-
+all_pages(library)
 # WRITE CODE ABOVE HERE
 
-
-binding.pry
-
-puts "Books!"
